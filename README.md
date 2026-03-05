@@ -9,16 +9,6 @@ The provided Python code implements a discrete-time stochastic compartmental mod
 - **Climatic Forcing:** Daily temperature variations affecting transmission rates.
 - **Entomological Forcing:** Premise Infestation Index (IIP) as a proxy for mosquito density.
 - **Biological Complexity:** Antibody-Dependent Enhancement (ADE), temporary cross-immunity, and branching pathways for symptomatic ($I$) and asymptomatic ($A$) infections.
-- **Numerical Stability:** The stochastic engine ensures mass conservation with a precision error (RMSE) of $10^{-13}$ relative to the total population $N$.
-
-## Repository Structure
-
-- `ModelTwoStrainsStochastic.py`: Main simulation script.
-- `/data`:
-    - `Clima_Foz.csv`: Historical temperature data for Foz do Iguaçu.
-    - `Ento_Foz.csv`: Entomological surveillance data (IIP).
-    - `Casos_Foz.csv`: Epidemiological data (reported dengue cases).
-- `requirements.txt`: List of required Python dependencies.
 
 ## Requirements
 
